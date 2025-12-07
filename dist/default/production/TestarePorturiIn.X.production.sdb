@@ -1,0 +1,629 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F67K40 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"6 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\main.c
+[v _UART_SendString UART_SendString `(v  1 s 1 UART_SendString ]
+"14
+[v _UART_SendPinLow UART_SendPinLow `(v  1 s 1 UART_SendPinLow ]
+"25
+[v _CheckPort CheckPort `(v  1 s 1 CheckPort ]
+"46
+[v _main main `(i  1 e 2 0 ]
+"39 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"43 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"92
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"101
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"105
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"118
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"127
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"131
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"144
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"153
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"157
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"170
+[v _INT3_CallBack INT3_CallBack `(v  1 e 1 0 ]
+"179
+[v _INT3_SetInterruptHandler INT3_SetInterruptHandler `(v  1 e 1 0 ]
+"183
+[v _INT3_DefaultInterruptHandler INT3_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"38 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"99 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"120
+[v _EUSART1_Deinitialize EUSART1_Deinitialize `(v  1 e 1 0 ]
+"141
+[v _EUSART1_TransmitEnable EUSART1_TransmitEnable `(v  1 e 1 0 ]
+"146
+[v _EUSART1_TransmitDisable EUSART1_TransmitDisable `(v  1 e 1 0 ]
+"171
+[v _EUSART1_AutoBaudSet EUSART1_AutoBaudSet `(v  1 e 1 0 ]
+"183
+[v _EUSART1_AutoBaudQuery EUSART1_AutoBaudQuery `(a  1 e 1 0 ]
+"198
+[v _EUSART1_IsRxReady EUSART1_IsRxReady `(a  1 e 1 0 ]
+"203
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+"208
+[v _EUSART1_IsTxDone EUSART1_IsTxDone `(a  1 e 1 0 ]
+"213
+[v _EUSART1_ErrorGet EUSART1_ErrorGet `(ui  1 e 2 0 ]
+"218
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"240
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"245
+[v _EUSART1_DefaultFramingErrorCallback EUSART1_DefaultFramingErrorCallback `(v  1 s 1 EUSART1_DefaultFramingErrorCallback ]
+"250
+[v _EUSART1_DefaultOverrunErrorCallback EUSART1_DefaultOverrunErrorCallback `(v  1 s 1 EUSART1_DefaultOverrunErrorCallback ]
+"257
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"265
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"2368 C:/Users/adria/.mchp_packs/Microchip/PIC18F-K_DFP/1.15.303/xc8\pic\include\proc/pic18f67k40.h
+[v _RX1PPS RX1PPS `VEuc  1 e 1 @3599 ]
+[s S342 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 INT3IE 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"4555
+[u S349 . 1 `S342 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES349  1 e 1 @3625 ]
+[s S73 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 INT3IF 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"5100
+[u S80 . 1 `S73 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES80  1 e 1 @3635 ]
+[s S796 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"5260
+[s S805 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S810 . 1 `S796 1 . 1 0 `S805 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES810  1 e 1 @3638 ]
+"6184
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3651 ]
+"6324
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3653 ]
+"6476
+[v _OSCEN OSCEN `VEuc  1 e 1 @3655 ]
+"6527
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3656 ]
+"6585
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3657 ]
+"8152
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3688 ]
+"10002
+[v _INLVLA INLVLA `VEuc  1 e 1 @3726 ]
+"10064
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3727 ]
+"10126
+[v _ODCONA ODCONA `VEuc  1 e 1 @3728 ]
+"10188
+[v _WPUA WPUA `VEuc  1 e 1 @3729 ]
+"10250
+[v _ANSELA ANSELA `VEuc  1 e 1 @3730 ]
+"10312
+[v _IOCBF IOCBF `VEuc  1 e 1 @3731 ]
+"10374
+[v _IOCBN IOCBN `VEuc  1 e 1 @3732 ]
+"10436
+[v _IOCBP IOCBP `VEuc  1 e 1 @3733 ]
+"10498
+[v _INLVLB INLVLB `VEuc  1 e 1 @3734 ]
+"10560
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3735 ]
+"10622
+[v _ODCONB ODCONB `VEuc  1 e 1 @3736 ]
+"10684
+[v _WPUB WPUB `VEuc  1 e 1 @3737 ]
+"10746
+[v _ANSELB ANSELB `VEuc  1 e 1 @3738 ]
+"10808
+[v _IOCCF IOCCF `VEuc  1 e 1 @3739 ]
+"10870
+[v _IOCCN IOCCN `VEuc  1 e 1 @3740 ]
+"10932
+[v _IOCCP IOCCP `VEuc  1 e 1 @3741 ]
+"10994
+[v _INLVLC INLVLC `VEuc  1 e 1 @3742 ]
+"11056
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3743 ]
+"11118
+[v _ODCONC ODCONC `VEuc  1 e 1 @3744 ]
+"11180
+[v _WPUC WPUC `VEuc  1 e 1 @3745 ]
+"11242
+[v _INLVLD INLVLD `VEuc  1 e 1 @3747 ]
+"11304
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @3748 ]
+"11366
+[v _ODCOND ODCOND `VEuc  1 e 1 @3749 ]
+"11428
+[v _WPUD WPUD `VEuc  1 e 1 @3750 ]
+"11490
+[v _ANSELD ANSELD `VEuc  1 e 1 @3751 ]
+"11552
+[v _IOCEF IOCEF `VEuc  1 e 1 @3752 ]
+"11614
+[v _IOCEN IOCEN `VEuc  1 e 1 @3753 ]
+"11676
+[v _IOCEP IOCEP `VEuc  1 e 1 @3754 ]
+"11738
+[v _INLVLE INLVLE `VEuc  1 e 1 @3755 ]
+"11800
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @3756 ]
+"11862
+[v _ODCONE ODCONE `VEuc  1 e 1 @3757 ]
+"11924
+[v _WPUE WPUE `VEuc  1 e 1 @3758 ]
+"11986
+[v _ANSELE ANSELE `VEuc  1 e 1 @3759 ]
+"12048
+[v _INLVLF INLVLF `VEuc  1 e 1 @3760 ]
+"12110
+[v _SLRCONF SLRCONF `VEuc  1 e 1 @3761 ]
+"12172
+[v _ODCONF ODCONF `VEuc  1 e 1 @3762 ]
+"12234
+[v _WPUF WPUF `VEuc  1 e 1 @3763 ]
+"12296
+[v _ANSELF ANSELF `VEuc  1 e 1 @3764 ]
+"12358
+[v _IOCGF IOCGF `VEuc  1 e 1 @3765 ]
+"12379
+[v _IOCGN IOCGN `VEuc  1 e 1 @3766 ]
+"12400
+[v _IOCGP IOCGP `VEuc  1 e 1 @3767 ]
+"12421
+[v _INLVLG INLVLG `VEuc  1 e 1 @3768 ]
+"12483
+[v _SLRCONG SLRCONG `VEuc  1 e 1 @3769 ]
+"12540
+[v _ODCONG ODCONG `VEuc  1 e 1 @3770 ]
+"12597
+[v _WPUG WPUG `VEuc  1 e 1 @3771 ]
+"12659
+[v _ANSELG ANSELG `VEuc  1 e 1 @3772 ]
+"12716
+[v _INLVLH INLVLH `VEuc  1 e 1 @3773 ]
+"12754
+[v _SLRCONH SLRCONH `VEuc  1 e 1 @3774 ]
+"12792
+[v _ODCONH ODCONH `VEuc  1 e 1 @3775 ]
+"12830
+[v _WPUH WPUH `VEuc  1 e 1 @3776 ]
+"28139
+[v _LATA LATA `VEuc  1 e 1 @3961 ]
+"28251
+[v _LATB LATB `VEuc  1 e 1 @3962 ]
+"28363
+[v _LATC LATC `VEuc  1 e 1 @3963 ]
+"28475
+[v _LATD LATD `VEuc  1 e 1 @3964 ]
+"28587
+[v _LATE LATE `VEuc  1 e 1 @3965 ]
+"28699
+[v _LATF LATF `VEuc  1 e 1 @3966 ]
+"28811
+[v _LATG LATG `VEuc  1 e 1 @3967 ]
+"28900
+[v _LATH LATH `VEuc  1 e 1 @3968 ]
+"29000
+[v _TRISA TRISA `VEuc  1 e 1 @3969 ]
+"29122
+[v _TRISB TRISB `VEuc  1 e 1 @3970 ]
+"29244
+[v _TRISC TRISC `VEuc  1 e 1 @3971 ]
+"29366
+[v _TRISD TRISD `VEuc  1 e 1 @3972 ]
+"29488
+[v _TRISE TRISE `VEuc  1 e 1 @3973 ]
+"29610
+[v _TRISF TRISF `VEuc  1 e 1 @3974 ]
+"29672
+[v _TRISG TRISG `VEuc  1 e 1 @3975 ]
+"29729
+[v _TRISH TRISH `VEuc  1 e 1 @3976 ]
+"29767
+[v _PORTA PORTA `VEuc  1 e 1 @3977 ]
+"29851
+[v _PORTB PORTB `VEuc  1 e 1 @3978 ]
+"29922
+[v _PORTC PORTC `VEuc  1 e 1 @3979 ]
+"30008
+[v _PORTD PORTD `VEuc  1 e 1 @3980 ]
+"30079
+[v _PORTE PORTE `VEuc  1 e 1 @3981 ]
+"30250
+[v _PORTF PORTF `VEuc  1 e 1 @3982 ]
+"30327
+[v _PORTG PORTG `VEuc  1 e 1 @3983 ]
+"30405
+[v _PORTH PORTH `VEuc  1 e 1 @3984 ]
+"31476
+[v _RC1REG RC1REG `VEuc  1 e 1 @3992 ]
+"31530
+[v _TX1REG TX1REG `VEuc  1 e 1 @3993 ]
+"31596
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @3994 ]
+"31650
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @3995 ]
+"31704
+[v _RC1STA RC1STA `VEuc  1 e 1 @3996 ]
+[s S559 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"31745
+[s S568 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S571 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S574 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[s S576 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S579 . 1 `S559 1 . 1 0 `S568 1 . 1 0 `S571 1 . 1 0 `S574 1 . 1 0 `S576 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES579  1 e 1 @3996 ]
+"31989
+[v _TX1STA TX1STA `VEuc  1 e 1 @3997 ]
+[s S606 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"32053
+[s S615 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S618 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[s S620 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S623 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S626 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S629 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S632 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S635 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S638 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S640 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S643 . 1 `S606 1 . 1 0 `S615 1 . 1 0 `S618 1 . 1 0 `S620 1 . 1 0 `S623 1 . 1 0 `S626 1 . 1 0 `S629 1 . 1 0 `S632 1 . 1 0 `S635 1 . 1 0 `S638 1 . 1 0 `S640 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES643  1 e 1 @3997 ]
+"32433
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @3998 ]
+[s S693 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"32514
+[s S702 . 1 `uc 1 ABDEN1 1 0 :1:0 
+]
+[s S704 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ABDOVF1 1 0 :1:7 
+]
+[s S707 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BRG161 1 0 :1:3 
+]
+[s S710 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CKTXP 1 0 :1:4 
+]
+[s S713 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCIDL1 1 0 :1:6 
+]
+[s S716 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S719 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RCMT1 1 0 :1:6 
+]
+[s S722 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP1 1 0 :1:4 
+]
+[s S725 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP 1 0 :1:4 
+]
+[s S728 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXCKP1 1 0 :1:4 
+]
+[s S731 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WUE1 1 0 :1:1 
+]
+[s S734 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S737 . 1 `S693 1 . 1 0 `S702 1 . 1 0 `S704 1 . 1 0 `S707 1 . 1 0 `S710 1 . 1 0 `S713 1 . 1 0 `S716 1 . 1 0 `S719 1 . 1 0 `S722 1 . 1 0 `S725 1 . 1 0 `S728 1 . 1 0 `S731 1 . 1 0 `S734 1 . 1 0 ]
+[v _BAUD1CONbits BAUD1CONbits `VES737  1 e 1 @3998 ]
+[s S34 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 INT3EDG 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"40159
+[s S43 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"40159
+[s S47 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"40159
+[u S51 . 1 `S34 1 . 1 0 `S43 1 . 1 0 `S47 1 . 1 0 ]
+"40159
+"40159
+[v _INTCONbits INTCONbits `VES51  1 e 1 @4082 ]
+"37 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\main.c
+[v _lastA lastA `[8]uc  1 s 8 lastA ]
+"38
+[v _lastB lastB `[8]uc  1 s 8 lastB ]
+"39
+[v _lastC lastC `[8]uc  1 s 8 lastC ]
+"40
+[v _lastD lastD `[8]uc  1 s 8 lastD ]
+"41
+[v _lastE lastE `[8]uc  1 s 8 lastE ]
+"42
+[v _lastF lastF `[8]uc  1 s 8 lastF ]
+"43
+[v _lastG lastG `[8]uc  1 s 8 lastG ]
+"44
+[v _lastH lastH `[4]uc  1 s 4 lastH ]
+"38 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"41
+[v _INT3_InterruptHandler INT3_InterruptHandler `*.38(v  1 e 3 0 ]
+[s S534 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"82 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/uart/src/eusart1.c
+[u S539 . 2 `S534 1 . 1 0 `ui 1 status 2 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES539  1 s 2 eusart1RxLastError ]
+"88
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 s 3 EUSART1_FramingErrorHandler ]
+"89
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 s 3 EUSART1_OverrunErrorHandler ]
+"46 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"66
+} 0
+"38 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"44
+} 0
+"38 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"150
+} 0
+"43 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"80
+} 0
+"179
+[v _INT3_SetInterruptHandler INT3_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT3_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"181
+} 0
+"153
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"155
+} 0
+"127
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"129
+} 0
+"101
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"103
+} 0
+"99 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"118
+} 0
+"265
+[v _EUSART1_OverrunErrorCallbackRegister EUSART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"271
+} 0
+"257
+[v _EUSART1_FramingErrorCallbackRegister EUSART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v EUSART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"263
+} 0
+"39 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"25 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\main.c
+[v _CheckPort CheckPort `(v  1 s 1 CheckPort ]
+{
+[v CheckPort@portValue portValue `VEuc  1 p 1 wreg ]
+"28
+[v CheckPort@now now `uc  1 a 1 10 ]
+"26
+[v CheckPort@i i `uc  1 a 1 12 ]
+"25
+[v CheckPort@portValue portValue `VEuc  1 p 1 wreg ]
+[v CheckPort@portLetter portLetter `uc  1 p 1 4 ]
+[v CheckPort@maxPins maxPins `uc  1 p 1 5 ]
+[v CheckPort@last last `*.30uc  1 p 1 6 ]
+[v CheckPort@ignoreMask ignoreMask `uc  1 p 1 7 ]
+[v CheckPort@portValue portValue `VEuc  1 p 1 11 ]
+"34
+} 1
+"14
+[v _UART_SendPinLow UART_SendPinLow `(v  1 s 1 UART_SendPinLow ]
+{
+[v UART_SendPinLow@portLetter portLetter `uc  1 p 1 wreg ]
+[v UART_SendPinLow@portLetter portLetter `uc  1 p 1 wreg ]
+[v UART_SendPinLow@pin pin `uc  1 p 1 2 ]
+[v UART_SendPinLow@portLetter portLetter `uc  1 p 1 3 ]
+"22
+} 1
+"6
+[v _UART_SendString UART_SendString `(v  1 s 1 UART_SendString ]
+{
+[v UART_SendString@s s `*.31Cuc  1 p 1 1 ]
+"11
+} 0
+"240 C:\Users\adria\OneDrive\Documente\Mplabx_projects\TestarePorturiIn.X\mcc_generated_files/uart/src/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 p 1 0 ]
+"243
+} 0
+"203
+[v _EUSART1_IsTxReady EUSART1_IsTxReady `(a  1 e 1 0 ]
+{
+"206
+} 0

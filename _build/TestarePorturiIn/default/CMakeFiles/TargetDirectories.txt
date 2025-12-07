@@ -1,0 +1,4 @@
+C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/_build/TestarePorturiIn/default/CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir
+C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/_build/TestarePorturiIn/default/CMakeFiles/TestarePorturiIn_default_image_YyjakDkb.dir
+C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/_build/TestarePorturiIn/default/CMakeFiles/edit_cache.dir
+C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/_build/TestarePorturiIn/default/CMakeFiles/rebuild_cache.dir

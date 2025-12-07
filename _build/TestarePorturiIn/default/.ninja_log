@@ -1,0 +1,15 @@
+# ninja log v7
+32	1950	7868086112685648	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/8b21c6c3eab4621a7ae0c9c6585794b4/mcc_generated_files/system/src/config_bits.c.p1	31791471ab06e701
+27	2452	7868086112635786	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/8b21c6c3eab4621a7ae0c9c6585794b4/mcc_generated_files/system/src/clock.c.p1	6b9b3b547437a930
+44	2515	7868086112813729	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/8b21c6c3eab4621a7ae0c9c6585794b4/mcc_generated_files/system/src/pins.c.p1	a7f4edcc05c8ed36
+40	2517	7868086112765424	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/8b21c6c3eab4621a7ae0c9c6585794b4/mcc_generated_files/system/src/interrupt.c.p1	8806abd1b4244488
+49	2528	7868086112863576	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/8b21c6c3eab4621a7ae0c9c6585794b4/mcc_generated_files/system/src/system.c.p1	cd81b2e772433a2e
+1951	3232	7868086131881168	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/8b21c6c3eab4621a7ae0c9c6585794b4/mcc_generated_files/uart/src/eusart1.c.p1	31be8aad63a77f54
+58	934	7868087729841008	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/C_/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/main.c.p1	5a8c6b64fb10c065
+935	3484	7868087738611588	C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/out/TestarePorturiIn/default.elf	e75551dfdb3059c1
+6	771	7868109788629318	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/C_/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/main.c.p1	5a8c6b64fb10c065
+772	2876	7868109796286342	C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/out/TestarePorturiIn/default.elf	e75551dfdb3059c1
+43	1179	7868113290424553	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/C_/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/main.c.p1	5a8c6b64fb10c065
+1180	2872	7868113301797123	C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/out/TestarePorturiIn/default.elf	e75551dfdb3059c1
+43	1042	7868115075965235	CMakeFiles/TestarePorturiIn_default_default_XC8_compile.dir/C_/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/main.c.p1	5a8c6b64fb10c065
+1043	2767	7868115085962377	C:/Users/adria/OneDrive/Documente/Mplabx_projects/TestarePorturiIn.X/out/TestarePorturiIn/default.elf	e75551dfdb3059c1
